@@ -1,4 +1,4 @@
-# Voty - Voice of your Community
+# Voty - Voice of your community
 
 ## Introduction
 
