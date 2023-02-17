@@ -117,6 +117,8 @@ Twitter: [@Voty_system](https://twitter.com/Voty_system)
 
 GitHub: [VotyXYZ](https://github.com/VotyXYZ)
 
+Presented by: [.bit Team](http://did.id/)
+
 ```html
 <iframe
   src="https://voty.substack.com/embed"
