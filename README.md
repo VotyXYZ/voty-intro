@@ -6,7 +6,14 @@ Voty is a decentralized voting protocol based on DID, that aims to offer a fair 
 
 Voty.xyz is expected to launch officially in Q1 2023. Leave us your email address to get the latest Voty updates.
 
-<iframe src="https://voty.substack.com/embed" width="480" height="120" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+```html
+<iframe
+  src="https://voty.substack.com/embed"
+  style="border:1px solid #EEE; background:white;"
+  frameborder="0"
+  scrolling="no"
+/>
+```
 
 ## Defects in current voting systems
 
@@ -101,4 +108,11 @@ Twitter: [@Voty_system](https://twitter.com/Voty_system)
 
 GitHub: [VotyXYZ](https://github.com/VotyXYZ)
 
-<iframe src="https://voty.substack.com/embed" width="480" height="120" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+```html
+<iframe
+  src="https://voty.substack.com/embed"
+  style="border:1px solid #EEE; background:white;"
+  frameborder="0"
+  scrolling="no"
+/>
+```
