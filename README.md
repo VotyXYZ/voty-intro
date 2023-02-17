@@ -93,9 +93,9 @@ The Voty Protocol has achieved the seemingly obvious but yet unaccomplished goal
 "Transparent" in Voty means that all rules, proposals, and each vote are publicly displayed. Any changes are traceable, and votes can not be maliciously undercounted.
 "Unalterable" in Voty means that all rules, proposals, and votes contain cryptographic signatures are stored on the blockchain. As a result, any fraudulent data can be easily identified and excluded.
 
-Voty.xyz is expected to launch officially in Q1 2023. To stay updated on the latest progress, you can follow us through the following ways. Additionally, we welcome developers who are interested in Voty to join us in collaboration on Github and build the ultimate decentralized voting protocol for the world.
-
 ---
+
+Voty.xyz is expected to launch officially in Q1 2023. To stay updated on the latest progress, you can follow us through the following ways. Additionally, we welcome developers who are interested in Voty to join us in collaboration on Github and build the ultimate decentralized voting protocol for the world.
 
 Twitter: [@Voty_system](https://twitter.com/Voty_system)
 
