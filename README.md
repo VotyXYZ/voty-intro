@@ -28,6 +28,7 @@ This leads to two major issues:
 ![](/0.png)
 
 It's evident that the number of communities that have issued tokens is significantly lower than those that haven't. Issuing tokens in the early stages of a community can be a burden rather than an advantage. These communities will face challenges such as: token distribution, token pricing, liquidity, and preventing speculations from disrupting the community's dynamics and relationships.
+
 We can conclude that there will be a large number of communities that will run well without tokens, but these communities will undoubtedly have governance needs, and existing voting systems will not be able to meet this demand.
 
 Whether the tokens are fungible or non-fungible, they can easily be traded on the market. Using them as voting rights means that the voting rights can also be easily traded, and that leads to potential corruption and speculation.
@@ -38,6 +39,7 @@ We are not saying that governance based on token is completely unfeasible. In fa
 ### 2. Allows for nonprofessional involvement
 
 In any community there is a division of work based on specialization. For example, a group of engineers might come together to provide technical support for the community, a group of marketers might contribute their knowledge and time to the community's marketing efforts, and a group of language majors might offer multilingual support for the community.
+
 In the real world, decisions about which technology a product should adopt are typically made based on the opinions of engineers alone. Similarly, decisions about where the community should increase its marketing investment are based on the opinions of marketers. However, in the current voting system, any member who holds voting rights (which are token-based and easily obtained) can participate in all proposals by voting, even if they don't fully understand the meaning of the proposal. This can result in a situation where nonprofessionals make decisions about how professionals should work.
 
 ### 3. Low voter turnout
@@ -52,7 +54,9 @@ Voty is a cutting-edge voting system. It far surpasses other existing voting sys
 ### 1. DID based
 
 There's no doubt that using SubDID of .bit (or a SubDomain of ENS) as a system for recognizing community identity is an unavoidable trend. Whether it's a DAO, a brand, a celebrity, or any type of community, they can bring their members/fans together by distributing SubDID, creating a highly recognizable community.
+
 Using the Nike community as an example (a hypothetical case), possession of alice.nike.bit is direct evidence of Alice's membership in the Nike community. By owning alice.nike.bit, Alice has the right to participate in governance and express her opinions within the community, even if she doesn't hold any tokens from the community (or in other words, there's no need for the community to issue any tokens)
+
 When setting up Voty, community administrators can assign a .bit account to represent the community, such as nike.bit. This will allow only users who possess a xxx.nike.bit account to be recognized as members of the community and participate in governance by creating proposals or casting votes.Community administrators can specify a .bit account associated with the community when initializing Voty, for example: nike.bit. By doing this, only users who own xxx.nike.bit are considered as community members, and allowed to initiate proposals or vote on proposals within the community.
 
 ### 2. "Workgroup" structure design
@@ -60,7 +64,9 @@ When setting up Voty, community administrators can assign a .bit account to repr
 ![](/1.png)
 
 In Voty, a community is composed of one to many Workgroups. Administrators can set different purposes, voting rules, eligible proposal initiators, and eligible voters for each Workgroup.
+
 This design enables effective governance in large communities by allowing different Workgroups within the community to handle different divisions of work. They can make independent decisions and operate without interference from one another.
+
 A member may be part of multiple Workgroups, just as a person may hold multiple positions in the real world.
 
 ### 3. Flexible "Member Set" functionality and weight distribution
@@ -68,6 +74,7 @@ A member may be part of multiple Workgroups, just as a person may hold multiple 
 Each Workgroup has three crucial components: rules, proposers, and voters. To handle different scenarios, the concept of "Member Set" was proposed. Simply put, Member Set is a list of members who meet certain specified criteria.
 
 Each Workgroup has a set of "Proposers" and a set of "Voters." The "Proposers" set is composed of one or more Member Sets, while the "Voters" set is composed of one or more Member Sets, along with the weights of votes that are tied to each Member Set.
+
 The filtering criteria for each Member Set in a Workgroup can be configured by administrators. This enables them to determine who can propose and who can vote in that Workgroup. The criteria can be diverse and may include a whitelist, holding a specific SubDID or SBT, holding a SubDID associated with a particular NFT/Token, or custom code, among others.
 
 For "Voters", administrators can assign weightings to each Member Set when it's created, and the weighting assigned applies to all members in the Member Set. Community members can also delegate their voting rights to other members.
@@ -97,7 +104,9 @@ All data on voty.xyz is stored on Arweave. According to Arweave's statement, thi
 ### 8. Transparent and unalterable
 
 The Voty Protocol has achieved the seemingly obvious but yet unaccomplished goal of being entirely transparent and unalterable through the use of blockchain technology.
+
 "Transparent" in Voty means that all rules, proposals, and each vote are publicly displayed. Any changes are traceable, and votes can not be maliciously undercounted.
+
 "Unalterable" in Voty means that all rules, proposals, and votes contain cryptographic signatures are stored on the blockchain. As a result, any fraudulent data can be easily identified and excluded.
 
 ---
