@@ -1,10 +1,10 @@
 {
-  "name": "homepage",
+  "name": "voty-intro",
   "version": "1.0.0",
-  "description": "## Introduction",
-  "main": "tailwind.config.js",
+  "description": "",
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwindcss -o build.css --minify"
   },
   "repository": {
     "type": "git",
