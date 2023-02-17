@@ -1,0 +1,23 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "## Introduction",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VotyXYZ/homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VotyXYZ/homepage/issues"
+  },
+  "homepage": "https://github.com/VotyXYZ/homepage#readme",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "tailwindcss": "^3.2.7"
+  }
+}
